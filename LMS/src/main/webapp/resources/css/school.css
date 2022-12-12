@@ -1,0 +1,162 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  font-family: Pretendard;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 5px;
+}
+.mainbox{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 1320px;
+    height: 300rem;
+}
+.school{
+    padding-top: 3rem;
+    width: 100%;
+}
+.comment{
+    text-align: center;
+    font-size: 2em;
+}
+.mainimg{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.line{
+    margin-top: 10rem;
+    margin: 0 auto;
+    width: 100%;
+    height: 1px;
+    background-color: #123;
+}
+.sizing{
+    margin: 3rem;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 25rem;
+}
+.center{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+.game, .ingnore, .web, .app, .boan, .big, .soft, .bando{
+    display: flex;
+}
+.imgname{
+    z-index: 22;
+    position: absolute;
+    margin-top: 14rem;
+    left: 33rem;
+}
+.white{
+    color: rgb(238, 232, 248);
+        text-shadow: 2px 2px 6px rgb(2, 2, 2);
+    font-size: 3rem;
+    color: white;
+}
+
+.font_center{
+    padding-top: 11rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+.boxback{
+    margin: 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    background: rgb(75, 70, 70);
+    color: white;
+    text-shadow: 2px 2px 6px rgb(134, 130, 130);
+}
+
+.body_black{
+    background-color: rgb(0, 0, 0);
+}
+
+.move{
+    transform: translateX(-40%);
+    opacity: .1;
+    transition: .7s;
+}
+.department{
+    margin-bottom: 10rem;
+}
+.move.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.sd{
+    text-shadow: 2px 2px 6px rgb(201, 188, 188);
+}
+.teacher{
+    margin-top: 10rem;
+    height: 70rem;
+}
+
+.dsize{
+    border-radius: 10rem;
+    width: 400px;
+}
+.ymimg{
+    border: 2px #123;
+    border-radius: 10rem;
+    background-color: rgb(141, 193, 245);
+}
+.chong{
+    padding-top:14px;
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 40%;
+    background-color: rgb(119, 78, 51);
+}
+.chong p{
+
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.ll{
+    margin-top: 10rem;
+    margin-left: 27rem;
+    display: flex;
+}
+
+.ll2{
+    margin-top: 10rem;
+    display: flex;
+}
+.ll2 p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.chongment{
+
+}
+
+.chongmargin{
+    
+}
+
+.chongment p{
+    font-size: 2rem;
+}
+.ym{
+    margin-left: 5rem;
+    padding-top: 11rem;
+}
